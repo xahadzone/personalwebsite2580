@@ -1,0 +1,198 @@
+*{
+   margin: 0;
+   hadding:0;
+}
+
+.header {
+   min-height: 50vh;
+   width: 100%;
+   background-image: url("bg.png");
+   background-position: center;
+   background-size: cover;
+
+}
+
+
+nav h5  {
+   color:white;
+   font-size: 18px; 
+   text-transform: uppercase;
+   
+}
+.nav-menu {
+   flex: 2;
+   text-align: right;
+   
+}
+
+.nav-menu ul li {
+   list-style: none; 
+   display: inline-block;
+   margin: 0% 15px; 
+   position: relative; 
+}
+
+.nav-menu ul li a{
+   text-decoration: none;
+   color:white;
+   font-size: 14px;
+   text-transform: uppercase;
+}
+.nav-memu ul li::after{
+   content: '';
+   width: 30px;
+   height:5px;
+   background: black;
+   display:block;
+   margin:auto;
+   position :absolute;
+   bottom: -10px;
+   translate:.5s;
+}
+.nav-memu ul li:hover::after{
+   width:100%;
+   
+}
+
+.profile-image {
+   width: 40%;
+   position:absolute;
+   top:34%;
+   left:50%;
+   transform: translate(25%, -25%);
+   text-align: center;
+}
+
+
+.titledescription {
+   width:60%;
+   height: 40%;
+   color:white;
+   position: absolute;
+   top:40%px;
+   left:30%px;
+   transform: translate(10%, 50%)
+}
+
+.titledescription h1 {
+   font-size: 35px;
+}
+.titledescription p{
+   margine:15px 0 40px;
+   font-size:25px;
+   color:white;
+}
+.titledescription a {
+   color:#ffffff;
+   display: inline-block;
+   text-decoration: none;
+   border: 2px solid white;
+   background: transformat;
+   position:relative;
+   cursor: pointer;
+   padding:15px 35px;
+   font-size:20px;
+   top:4%;
+   
+}
+
+.titledescription a:hover{
+   background: black;
+   border:2px solid skyblue;
+   transition: 2ms
+   
+}
+
+@media(max-width: 500px){
+.titledescription { 
+   width: 90;
+   color:white;
+   position: absolute;
+   top:60;
+   left:50;
+   transform: translate(-50px,  -50px)
+   
+   
+}
+.titledescription h1 {
+   font-size:15px;
+   
+}
+
+}
+ 
+ h2 {
+    top:8%;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+ }
+ 
+ /*.......about me.......*/
+ /*
+.row{
+   display: flex;
+}
+.about me {
+   width:80%;
+   margin: auto;
+   text-align:center;
+   padding-top: 100px;
+   
+}
+
+r.about-me-col{
+   flex-basis:45%;
+   border-radius:50px;
+   margin-bottom:5%;
+  
+}
+
+.about-me-col img {
+   width: 70%;
+   border-radius: 60%;
+}
+.about-me-col h1{
+   text-decoration:underline;
+   top:40px;
+   width:50;
+   height:60;
+}
+
+.about-me-col h3{
+   text-aling:center;
+   top:30px;
+}
+.about-me-col p{
+   top:30px;
+}
+
+*/
+
+.pp-img{
+   width: 40%;
+   position:absolute;
+   top:70%;
+   right:70%;
+   transform: translate(25%, -25%);
+   text-align: center;
+}
+
+.about-me-col{
+   width:60%;
+   height: 40%;
+   position: absolute;
+   top:40%px;
+   right:90%px;
+   transform: translate(70%, 50%)
+}
+.about-me-col h1 {
+   text-decoration:underline;
+   top:40px;
+   width:50;
+   height:60;
+   
+}
+.about-me-col h3{
+   text-size:14px;
+}
